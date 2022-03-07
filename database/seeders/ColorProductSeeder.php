@@ -24,16 +24,16 @@ class ColorProductSeeder extends Seeder
         foreach ($products as $product) {
             $product->colors()->attach([
                 1 => [
-                    'quantity'  => 3
+                    'quantity'  => 5
                 ],
                 2 => [
-                    'quantity'  => 3
+                    'quantity'  => 5
                 ],
                 3 => [
-                    'quantity'  => 3
+                    'quantity'  => 5
                 ],
                 4 => [
-                    'quantity'  => 3
+                    'quantity'  => 5
                 ],
             ]);
         }
